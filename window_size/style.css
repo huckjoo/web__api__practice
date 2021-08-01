@@ -1,0 +1,11 @@
+.window {
+  background-color: #d6a2e8;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  margin-top: 20px;
+  width: 301px;
+  height: 301px;
+}
