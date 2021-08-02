@@ -1,0 +1,29 @@
+html {
+  /* cursor: url("img/target.png") 60 60, auto; */
+  cursor: none;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: black;
+}
+img {
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+.mousePosition {
+  position: fixed;
+  color: white;
+  font-size: 20px;
+}
+.mouseRow {
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  height: 1px;
+}
+.mouseColumn {
+  position: fixed;
+  background-color: white;
+  width: 1px;
+  height: 100vh;
+}
