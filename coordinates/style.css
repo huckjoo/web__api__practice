@@ -1,9 +1,17 @@
-div {
+body {
+  background-color: black;
+}
+.box {
   width: 120px;
   height: 120px;
   border: 1px solid burlywood;
   background-color: cornsilk;
+  margin-bottom: 3px;
 }
 .special {
-  background-color: black;
+  background-color: rgb(215, 241, 68);
+}
+.scroll__controls {
+  position: fixed;
+  right: 20px;
 }
