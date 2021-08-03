@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .imgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="imgs">
+      <button>🐇find the rabbit🐇</button>
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img class="rabbit" src="img/rabbit.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+      <img src="img/carrot.png" />
+    </div>
+    <script>
+      const rabbit = document.querySelector(".rabbit");
+      const rabbitBtn = document.querySelector("button");
+      function handleClick(event) {
+        rabbit.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+      rabbitBtn.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>
