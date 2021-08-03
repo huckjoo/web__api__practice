@@ -1,10 +1,10 @@
 html {
   /* cursor: url("img/target.png") 60 60, auto; */
-  cursor: none;
   font-family: "Courier New", Courier, monospace;
 }
 body {
   background-color: black;
+  margin: 0;
 }
 img {
   position: fixed;
