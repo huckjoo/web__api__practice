@@ -34,10 +34,6 @@ function handleSubmit(event){
     // delBtn.forEach((x)=>x.addEventListener("click",handleDelete));
 
     }
-
-// function handleDelete(event){
-//     this.parentNode.parentNode.remove();
-// }
 function allKill(){
     const ul = document.querySelector(".main__list");
     while(ul.firstChild){
